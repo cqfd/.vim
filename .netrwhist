@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/amo/.vim/bundle/Command-T'
+let g:netrw_dirhist_2='/Users/amo/.vim/bundle/Command-T/ruby'
+let g:netrw_dirhist_3='/Users/amo/.vim/bundle/Command-T/ruby/command-t'
+let g:netrw_dirhist_4='/Users/amo/reading/ruby/the_rspec_book/codebreaker'
+let g:netrw_dirhist_5='/Users/amo/reading/ruby/the_rspec_book/codebreaker/features'
+let g:netrw_dirhist_6='/Users/amo/reading/ruby/the_rspec_book/codebreaker/lib/codebreaker'
+let g:netrw_dirhist_7='/Users/amo/development/gathr/notes'
+let g:netrw_dirhist_8='/Users/amo/study/vim'
+let g:netrw_dirhist_9='/Users/amo/development/gathr/gathr.at.mongo'
