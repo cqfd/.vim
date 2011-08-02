@@ -1,3 +1,5 @@
+# Installation
+
 ## Step One
 
 Clone into `~/.vim`.
@@ -7,6 +9,7 @@ Clone into `~/.vim`.
 Pull in pathogen bundles:
 
 `git submodule init`
+
 `git submodule update`
 
 ## Step Three
