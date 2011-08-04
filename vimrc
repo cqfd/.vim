@@ -2,13 +2,14 @@
 " Pathogen stuff
 " ================
 
-filetype off 
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 " ================
 " General
 " ================
+
+syntax on                 " Enable syntax highlighting
+filetype plugin indent on " Enable filetype-specific indenting and plugins
 
 set clipboard=unnamed
 
@@ -98,8 +99,6 @@ au BufRead,BufNewFile *.py set filetype=python sw=4 sts=4 et
 " ================
 " Ruby
 " ================
-syntax on                 " Enable syntax highlighting
-filetype plugin indent on " Enable filetype-specific indenting and plugins
 
 augroup myfiletypes
   " Clear old autocmds in group
